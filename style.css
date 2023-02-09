@@ -58,10 +58,10 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  transition: 2.5s 2s ease-in-out;
 }
 .db div:hover {
   background-image: linear-gradient(450deg,#5a6170,#9da6b8);
-  transition: 2.5s 2s ease-in-out;
 }
 .db div a {
   width: 50%;
@@ -114,10 +114,10 @@ main .title, p, h3{
   height: 90%;
   padding: 10px;
   border: 1px solid gray;
+  transition: 1s 0.5s ease-in-out;
 }
 .section1 div:hover {
   background-color: rgba(218, 223, 234,0.4);
-  transition: 2s 0.5s ease-in-out;
 }
 .section1 a span {
   display: flex;
@@ -157,13 +157,14 @@ aside .chat-all {
   border-radius: 10px;
   
 }
+.child1, .child2 {
+  transition: 0.5s 0.5s ease-in-out;
+}
 .child1:hover {
   background-color: #f8a4d8;
-  transition: 0.5s 0.5s ease-in-out;
 }
 .child2:hover {
   background-color: #f8a4d8;
-  transition: 0.5s 0.5s ease-in-out;
 }
 aside .chat {
   height: 10%;
@@ -174,10 +175,10 @@ aside .chat {
   flex-direction: row;
   overflow: hidden;
   padding-left: 10px;
+  transition: 0.5s 0.2s ease-in-out;
 }
 aside .chat:hover {
   background-image: linear-gradient(450deg,#5a6170,#9da6b8);
-  transition: 0.5s 0.2s ease-in-out;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
 }
